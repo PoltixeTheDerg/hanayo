@@ -8,7 +8,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>{{ if .TitleBar }}{{ .T .TitleBar }} - {{ end }}RealistikOsu!</title>
+		<title>{{ if .TitleBar }}{{ .T .TitleBar }} - {{ end }}osuHOW</title>
 
 		<link rel="stylesheet" type="text/css" href="/static/{{ if $ds }}dark/{{ end }}semantic.min.css?{{ unixNano }}">
 		<link rel="stylesheet" type="text/css" href="/static/ripple.css?{{ unixNano }}">
@@ -51,7 +51,6 @@
 						</div>
 					</div>
 					<div class="ui container">
-						<h1>{{ if .HeadingTitle }}{{ .T .HeadingTitle | html }}{{ else }}{{ .T .TitleBar }}{{ end }}</h1>
 					</div>
 				</div>
 			{{ end }}
@@ -130,7 +129,7 @@
 							</div>
 						</div>
 						<div class="footer-logo">
-							<span style="color: white; font-size: 30px;">RealistikOsu!</span> 
+							<span style="color: white; font-size: 30px;">osuHOW</span> 
 							<br>
 							<a class="subtitle" style="font-size: 15px; color: white;">osu! private server</a>
 						</div>
