@@ -27,7 +27,7 @@ $(document).ready(function() {
 		$(this).addClass("active");
 		window.history.replaceState('', document.title, wl.pathname + "?mode=" + m + wl.hash);
 	});
-	//initialiseAchievements();
+	initialiseAchievements();
 	initialiseFriends();
 	// load scores page for the current favourite mode
 	var i = function(){initialiseScores($("#scores-zone>div[data-mode=" + favouriteMode + "]"), favouriteMode)};
@@ -594,3 +594,4 @@ function beatmapLink(type, id) {
 		return "<a href='/s/" + id + "'>" + id + '</a>';
 	return "<a href='/b/" + id + "'>" + id + '</a>';
 }
+

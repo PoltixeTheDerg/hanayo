@@ -2,7 +2,11 @@
 {{ $cf := .ClientFlags }}
 {{ $ds := band $cf 1 }}
 {{ $   := . }}
+{{ if and .Context.User.Username (not (has .Context.User.Privileges 1)) }}
+<img src= "static/caution-bar.png" class="cautionbar">
+{{ end }}
 <!DOCTYPE html>
+
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -60,7 +64,7 @@
 				<noscript>Research has proven this website works 10000% better if you have JavaScript enabled.</noscript>
 				{{ if and .Context.User.Username (not (has .Context.User.Privileges 1)) }}
 					<div class="ui warning message">
-						{{ $.T "Your account is currently in restricted mode. You will not be able to do certain actions, and your profile can only be seen by you and by Ripple's staff. If you believe we have mistaken putting you in restricted mode, or a month has passed since you first saw this, then you can send an appeal at <a href='https://support.ripple.moe'>support.ripple.moe</a>." | html }}
+						{{ $.T "Your account is currently in restricted mode. You will not be able to do certain actions, and your profile can only be seen by you and by osuHOW's staff. If you believe we have mistaken putting you in restricted mode, or a month has passed since you first saw this, then you can send an appeal in <a href='https://www.guilded.gg/i/AkJ1XjZ2'>our Guilded server</a>." | html }}
 					</div>
 				{{ end }}
 				{{ if .Messages }}
@@ -79,12 +83,12 @@
 				{{ end }}
 				{{ with $settings.game_maintenance.Int }}
 					<div class="ui warning message">
-						{{ $.T "RealistikOsu!'s score submission is currently in maintenance mode. You will not be allowed to submit scores for the time being." }}
+						{{ $.T "osuHOW's score submission is currently in maintenance mode. You will not be allowed to submit scores for the time being." }}
 					</div>
 				{{ end }}
 				{{ with $settings.website_maintenance.Int }}
 					<div class="ui warning message">
-						{{ $.T "The RealistikOsu! website is currently in maintenance mode. Only certain users are allowed to access the full website." }}
+						{{ $.T "The osuHOW website is currently in maintenance mode. Only certain users are allowed to access the full website." }}
 					</div>
 				{{ end }}
 				</div>
@@ -102,8 +106,8 @@
 								<a class="footer-title">Help</a> 
 								<ul style="list-style-type: none; padding: 0; margin: 0;">
 									<li>
-										<i><a href="https://dl.ussr.pl/files/osu/ROS.exe">Server Switcher</a></i>
-										<i><a href="https://ussr.pl/doc">Documentation</a></i>
+										<i><a href="https://osuhow.tk/static/switcher.exe">Server Switcher</a></i>
+										<i><a href="https://osuhow.tk/doc">Documentation</a></i>
 									</li>
 								</ul>
 							</div> 
@@ -113,7 +117,7 @@
 								<a class="footer-title">Social</a>
 								<ul style="list-style-type: none; padding: 0; margin: 0;">
 									<li>
-										<i><a href="https://discord.gg/87E2K46" target="_blank">Discord</a></i>
+										<i><a href="hhttps://www.guilded.gg/i/AkJ1XjZ2" target="_blank">Guilded</a></i>
 									</li>
 								</ul>
 							</div>
@@ -123,7 +127,7 @@
 								<a class="footer-title">Source Code</a>
 								<ul style="list-style-type: none; padding: 0; margin: 0;">
 									<li>
-										<i><a href="https://github.com/RealistikOsu" target="_blank">GitHub</a></i>
+										<i><a href="https://github.com/osuHOW" target="_blank">GitHub</a></i>
 									</li>
 								</ul>
 							</div>
