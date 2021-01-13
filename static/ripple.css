@@ -351,6 +351,11 @@ margin-bottom: 5px;
 	background-attachment: fixed;
 	background-size: cover;
 }
+.footer.dark {
+	background-color: #353535;
+	border-color: grey;
+    background: linear-gradient( rgba(255,255,255,0.03),rgba(255,255,255,0.03) ),url("image/background-footer.png");
+}
 
 img {
 	max-width: 100%;
@@ -442,7 +447,7 @@ body.ds .white.background {
 .user.avatar {
 	float: left;
 	overflow: auto;
-	margin-right: 10px;
+	padding-right: 10px;
 	display: block;
 	height: 80px;
 }
@@ -640,6 +645,12 @@ code {
 
 .ui.form .error.message, .ui.form .success.message, .ui.form .warning.message {
 	display: block !important;
+    text-align: center;
+}
+.exclaimicon {
+    margin-right: 10px;
+    position: absolute;
+    display: inline-block !important;
 }
 
 textarea.monospace {
