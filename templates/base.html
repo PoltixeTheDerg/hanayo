@@ -3,7 +3,7 @@
 {{ $ds := band $cf 1 }}
 {{ $   := . }}
 {{ if and .Context.User.Username (not (has .Context.User.Privileges 1)) }}
-<img src= "static/caution-bar.png" class="cautionbar">
+<img src= "https://osuhow.tk/static/caution-bar.png" class="cautionbar">
 {{ end }}
 <!DOCTYPE html>
 
@@ -63,8 +63,8 @@
 				<div class="ui margined container" id="messages-container">
 				<noscript>Research has proven this website works 10000% better if you have JavaScript enabled.</noscript>
 				{{ if and .Context.User.Username (not (has .Context.User.Privileges 1)) }}
-					<div class="ui warning message">
-						{{ $.T "Your account is currently in restricted mode. You will not be able to do certain actions, and your profile can only be seen by you and by osuHOW's staff. If you believe we have mistaken putting you in restricted mode, or a month has passed since you first saw this, then you can send an appeal in <a href='https://www.guilded.gg/i/AkJ1XjZ2'>our Guilded server</a>." | html }}
+					<div class="ui error message">
+						{{ $.T "Your account is currently restricted. You will not be able to interact with other users, and your profile will only be visable to you. In one month you can appeal at <a href='https://discord.gg/CZd5HdhpyC'>our Discord server</a>." | html }}
 					</div>
 				{{ end }}
 				{{ if .Messages }}
@@ -96,50 +96,28 @@
 			</div>
 
 		</div>
+		<div class="footer dark">
+			{{ .T "&copy; 2015-%d Ripple, osuHOW, using Hanayo %s." (curryear) (version) | html }}
+			<a href="/team" title="{{ .T "Who is working on this thing?" }}"><i class="users icon"></i>{{ .T "Team" }}</a> |
+			<a href="https://github.com/osuHOW" title="{{ .T "What's going on under the hood?"}}{{/*'"*/}}"><i class="git square icon"></i></a>
+			<a href="https://twitter.com/Sakuru77467114" title="{{ .T "Follow us on Twitter!" }}"><i class="twitter icon"></i></a>
 
-		<div class="footer-bg">
-			<div class="ui container">
-				<div class="ui internally celled grid">
-					<div class="row">
-						<div class="three wide column">
-							<div class="footer-info-block">
-								<a class="footer-title">Help</a> 
-								<ul style="list-style-type: none; padding: 0; margin: 0;">
-									<li>
-										<i><a href="https://osuhow.tk/static/switcher.exe">Server Switcher</a></i>
-										<i><a href="https://osuhow.tk/doc">Documentation</a></i>
-									</li>
-								</ul>
-							</div> 
-						</div>
-						<div class="three wide column">
-							<div class="footer-info-block">
-								<a class="footer-title">Social</a>
-								<ul style="list-style-type: none; padding: 0; margin: 0;">
-									<li>
-										<i><a href="hhttps://www.guilded.gg/i/AkJ1XjZ2" target="_blank">Guilded</a></i>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="seven wide column">
-							<div class="footer-info-block">
-								<a class="footer-title">Source Code</a>
-								<ul style="list-style-type: none; padding: 0; margin: 0;">
-									<li>
-										<i><a href="https://github.com/osuHOW" target="_blank">GitHub</a></i>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="footer-logo">
-							<span style="color: white; font-size: 30px;">osuHOW</span> 
-							<br>
-							<a class="subtitle" style="font-size: 15px; color: white;">osu! private server</a>
-						</div>
-					</div>
+			<div class="ui scrolling dropdown" style="margin-left: 5px;" id="language-selector">
+				{{ $lang := .Context.Language }}
+				{{ with $lang }}
+					{{ $info := languageInformationByNameShort . }}
+					<div class="text"><i class="{{ $info.CountryShort }} flag"></i>{{ $info.Name }}</div>
+				{{ else }}
+					<div class="default text">{{ .T "Language" }}</div>
+				{{ end }}
+				<i class="dropdown icon"></i>
+				<div class="menu">
+					{{ range languageInformation }}
+						<div class="{{ if eq .NameShort $lang }}selected {{ end }}item" data-lang="{{ .NameShort }}"><i class="{{ .CountryShort }} flag"></i>{{ .Name }}</div>
+					{{ end }}
 				</div>
 			</div>
+		</div>
 		<script>
 			var hanayoConf = {
 				avatars:   {{ .Conf.AvatarURL }},

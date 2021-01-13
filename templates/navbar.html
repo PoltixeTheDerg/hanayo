@@ -35,8 +35,9 @@
 				<div class="menu">
 					{{ navbarItem .Path (.T "About") "/about" }}
 					{{ navbarItem .Path (.T "Rules") "/doc/rules" }}
+					{{ navbarItem .Path (.T "Server switcher") "https://osuhow.tk/static/switcher.exe" }}
+					{{ navbarItem .Path (.T "Fallback Switcher") "https://osuhow.tk/static/switcher2.exe" }}
 					{{ navbarItem .Path (.T "Documentation") "/doc" }}
-					{{ navbarItem .Path (.T "Server switcher") "http://dl.ussr.pl/files/osu/ROS.exe" }}
 					{{ navbarItem .Path (.T "Our Team") "/team" }}
 				</div>
 			</div>
@@ -50,7 +51,7 @@
 			</div>
 			{{ end }}
 			{{/* navbarItem .Path (.T "Donate" | printf "<i class=\"red heart icon\"></i>%s") "/donate" */}}
-			{{ if $isAdmin }}{{ navbarItem .Path (.T "Admin Panel" | printf "<b>%s</b>") "http://aap.osuhow.tk" }}{{ end }}
+			{{ if $isAdmin }}{{ navbarItem .Path (.T "Admin Panel" | printf "<b>%s</b>") "https://aap.osuhow.tk/index.php?p=100" }}{{ end }}
 		{{ end }}
 		<div class="firetrucking-right-menu">
 			<div class="item">

@@ -44,13 +44,7 @@
 						{{ if eq $global.UserID $global.Context.User.ID }}
 							<a href="/settings/avatar">
 						{{ end }}
-						{{ with bgetv1 "isOnline?id=%.0f" .id }}
-						{{ if .result }}
-							<img src="{{ config "AvatarURL" }}/{{ $global.UserID }}" alt="avatar" class="user avatar" style="border-radius: 50%; box-shadow: 0px 0px 15px #81ff55;">
-						{{ else }}
-							<img src="{{ config "AvatarURL" }}/{{ $global.UserID }}" alt="avatar" class="user avatar" style="border-radius: 50%; box-shadow: 0px 0px 15px #eb4034;">
-						{{ end }}
-					{{ end }}
+								<img src="{{ config "AvatarURL" }}/{{ .id }}" alt="avatar" class="user avatar">
 						{{ if eq $global.UserID $global.Context.User.ID }}
 							</a>
 						{{ end }}
@@ -175,7 +169,7 @@ starteffect()
 								</a>
 							{{ end }}
 							{{ if hasAdmin $global.Context.User.Privileges }}
-								<a href="https://old.ussr.pl/index.php?p=103&id={{ $global.UserID }}"
+								<a href="https://aap.osuhow.tk/index.php?p=103&id={{ $global.UserID }}"
 									target="_blank" title="Quick edit" class="ui circular mini blue icon button">
 									<i class="folder open outline icon"></i>
 								</a>
