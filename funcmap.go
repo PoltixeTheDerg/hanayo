@@ -602,6 +602,7 @@ var languageInformation = []langInfo{
 	{"Deutsch", "de", "de"},
 	{"English (UK)", "gb", "en"},
 	{"Español", "es", "es"},
+	{"Esperanto", "eo", "eo"},
 	{"Français", "fr", "fr"},
 	{"Italiano", "it", "it"},
 	{"Nederlands", "nl", "nl"},
