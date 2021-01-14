@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.4.2\n"
-"Last-Translator: \n"
+"Last-Translator: Beyley Thomas <ep1cm1n10n123@gmail.com>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: eo\n"
 
@@ -67,7 +67,7 @@ msgstr ""
 
 # After this text there is a date. The date is localised separately.
 msgid "Please try again "
-msgstr "Bonvolu reprovi"
+msgstr "Bonvolu reprove "
 
 # pwreset/continue.html
 msgid "Reset password"
@@ -248,10 +248,10 @@ msgid "Documentation"
 msgstr "Dokumentado"
 
 msgid "Server switcher"
-msgstr ""
+msgstr "Servila ŝaltilo"
 
 msgid "Status"
-msgstr ""
+msgstr "Stato"
 
 msgid "Discord"
 msgstr "Discord"
@@ -279,7 +279,7 @@ msgstr ""
 
 # 2fa_gateway_recover.html
 msgid "Recover account"
-msgstr ""
+msgstr "Rekuperi konton"
 
 msgid ""
 "Can't find a way to get back access to your RealistikOsu! account? Fear not! "
@@ -290,10 +290,10 @@ msgid ""
 msgstr ""
 
 msgid "Oh no you don't."
-msgstr ""
+msgstr "Ho ne, vi ne."
 
 msgid "Get out."
-msgstr ""
+msgstr "Eliri."
 
 msgid "Recovery code is invalid."
 msgstr ""
@@ -303,7 +303,7 @@ msgid "Elmo! Stop!"
 msgstr "Elmo! Haltu!"
 
 msgid "Stop!"
-msgstr "Haltu"
+msgstr "Haltu!"
 
 msgid ""
 "We see that you're trying to sign up while having already signed up as %s! "
@@ -406,7 +406,7 @@ msgstr ""
 
 # not_found.html
 msgid "Not Found"
-msgstr ""
+msgstr "Ne trovita"
 
 msgid ""
 "We're sorry, but we were unable to find the content you were looking for!"
@@ -414,10 +414,10 @@ msgstr ""
 
 # navbar.html
 msgid "Home page"
-msgstr ""
+msgstr "Hejmpaĝo"
 
 msgid "Leaderboard"
-msgstr ""
+msgstr "Ĉampionejo"
 
 msgid "Help"
 msgstr "Helpu"
@@ -429,40 +429,40 @@ msgid "Chat (Discord)"
 msgstr "Babili (Discord)"
 
 msgid "Contact support"
-msgstr ""
+msgstr "Kontaktu subteno"
 
 msgid "Beatmaps"
-msgstr ""
+msgstr "Mapoj"
 
 msgid "Donate"
-msgstr ""
+msgstr "Doni"
 
 msgid "RAP"
 msgstr ""
 
 msgid "Profile"
-msgstr ""
+msgstr "Profilo"
 
 msgid "Friends"
-msgstr ""
+msgstr "Amikoj"
 
 msgid "Settings"
-msgstr ""
+msgstr "Agordoj"
 
 msgid "Log out"
-msgstr ""
+msgstr "Elsaluti"
 
 msgid "Looking for someone?"
 msgstr ""
 
 # homepage.html
 msgid "Home Page"
-msgstr ""
+msgstr "Hejmpaĝo"
 
 # #-#-#-#-#  catalog.pot  #-#-#-#-#
 # about.html
 msgid "Welcome to Ripple."
-msgstr ""
+msgstr "Bonvenon al osuHAŬ."
 
 msgid ""
 "RealistikOsu! is a private osu! server, featuring multiplayer, PP, a very "
@@ -480,7 +480,7 @@ msgid ""
 msgstr ""
 
 msgid "Howdy, %s!"
-msgstr ""
+msgstr "Hola, %s!"
 
 msgid ""
 "Welcome back to Ripple. We currently have <b>%s online users and %s total "
@@ -514,7 +514,7 @@ msgid "&copy; 2015-%d Ripple, using Hanayo %s."
 msgstr ""
 
 msgid "Team"
-msgstr ""
+msgstr "Teamo"
 
 msgid "Who is working on this thing?"
 msgstr ""
@@ -526,10 +526,10 @@ msgid "See what changed!"
 msgstr ""
 
 msgid "Changelog"
-msgstr ""
+msgstr "Listo de Ŝanĝoj"
 
 msgid "Blog"
-msgstr ""
+msgstr "Blogo"
 
 msgid "What's going on under the hood?"
 msgstr ""
@@ -575,7 +575,7 @@ msgid "Star Difficulty"
 msgstr ""
 
 msgid "Length"
-msgstr ""
+msgstr "Longeco"
 
 msgid "BPM"
 msgstr ""
@@ -584,10 +584,10 @@ msgid "osu!direct"
 msgstr ""
 
 msgid "download"
-msgstr ""
+msgstr "elŝutu"
 
 msgid "download (no video)"
-msgstr ""
+msgstr "elŝutu (ne video)"
 
 msgid "Rank in RAP"
 msgstr ""
@@ -622,7 +622,7 @@ msgid "Google Authenticator passcode"
 msgstr ""
 
 msgid "Hey, %s."
-msgstr ""
+msgstr "Hej, %s."
 
 msgid "You need to complete the 2fa challenge first."
 msgstr ""
@@ -668,10 +668,10 @@ msgid "Ranking queue for unranked beatmaps."
 msgstr ""
 
 msgid "Spectator."
-msgstr ""
+msgstr "Spektanto."
 
 msgid "Multiplayer."
-msgstr ""
+msgstr "Multiludanto."
 
 msgid "FokaBot, our chat bot"
 msgstr ""
@@ -718,13 +718,13 @@ msgid ""
 msgstr ""
 
 msgid "Author"
-msgstr ""
+msgstr "Aŭtoro"
 
 msgid "Subject"
-msgstr ""
+msgstr "Subjekto"
 
 msgid "Time"
-msgstr ""
+msgstr "Horo"
 
 # doc_content.html
 msgid "View document"
@@ -752,10 +752,10 @@ msgid ""
 msgstr ""
 
 msgid "Mutual"
-msgstr ""
+msgstr "Reciproka"
 
 msgid "Remove"
-msgstr ""
+msgstr "Forigi"
 
 # irc.html
 msgid ""
@@ -771,19 +771,19 @@ msgstr ""
 
 # leaderboard.html
 msgid "Rank"
-msgstr ""
+msgstr "Rango"
 
 msgid "Player"
-msgstr ""
+msgstr "Ludanto"
 
 msgid "PP/Score"
-msgstr ""
+msgstr "PP/Punkto"
 
 msgid "Accuracy"
-msgstr ""
+msgstr "Precizeco"
 
 msgid "Playcount"
-msgstr ""
+msgstr "Ludkalkulo"
 
 # profile.html
 msgid "%s's profile"
@@ -791,44 +791,44 @@ msgstr ""
 
 # for <reason>, expires <placeholder for time>.
 msgid "User is <b>silenced</b> for %s, expires %s."
-msgstr ""
+msgstr "Uzanto estas <b>silentigita</b> por %s, eksvalidiĝas %s."
 
 # %s is placeholder for an adjective of the user, e.g. "locked", "pending verification", "restricted"
 msgid "User is <b>%s</b>"
-msgstr ""
+msgstr "Uzanto estas <b>%s</b>"
 
 msgid "pending verification"
-msgstr ""
+msgstr "pritraktata konfirmo"
 
 msgid "banned"
-msgstr ""
+msgstr "malpermesita"
 
 msgid "restricted"
-msgstr ""
+msgstr "limigita"
 
 msgid "locked"
-msgstr ""
+msgstr "ŝlosita"
 
 msgid "User not found"
-msgstr ""
+msgstr "Uzanto ne trovita"
 
 msgid "(aka <b>%s</b>)"
-msgstr ""
+msgstr "(alinome <b>%s</b>)"
 
 msgid "Online"
-msgstr ""
+msgstr "Interrete"
 
 msgid "Offline"
-msgstr ""
+msgstr "Malinterrete"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Nekonata"
 
 msgid "<b>%s</b> is a RealistikOsu! player from <b>%s</b>."
-msgstr ""
+msgstr "<b>%s</b> estas osuHAŬ! ludanto de <b>%s</b>."
 
 msgid "Last seen: %s."
-msgstr ""
+msgstr "Laste vidita: %s."
 
 msgid "They signed up on RealistikOsu! %s."
 msgstr ""
@@ -837,19 +837,19 @@ msgid "They play with %s."
 msgstr ""
 
 msgid "Mouse"
-msgstr ""
+msgstr "Muso"
 
 msgid "Tablet"
-msgstr ""
+msgstr "Tablojdo"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Klavaro"
 
 msgid "Touchscreen"
-msgstr ""
+msgstr "Tuŝekrano"
 
 msgid "Spoon"
-msgstr ""
+msgstr "Kulero"
 
 msgid "Leap motion"
 msgstr ""
@@ -858,10 +858,10 @@ msgid "Oculus rift"
 msgstr ""
 
 msgid "Dick"
-msgstr ""
+msgstr "Peniso"
 
 msgid "Eggplant"
-msgstr ""
+msgstr "Melongeno"
 
 msgid "This user hasn't got any badges!"
 msgstr ""
@@ -873,7 +873,7 @@ msgid "Country rank"
 msgstr ""
 
 msgid "PP"
-msgstr ""
+msgstr "PP"
 
 msgid "Ranked score"
 msgstr ""
@@ -885,27 +885,27 @@ msgid "Replays watched"
 msgstr ""
 
 msgid "Total hits"
-msgstr ""
+msgstr "Entute trafoj"
 
 msgid "Level %s"
-msgstr ""
+msgstr "Nivelo %s"
 
 msgid "Achievements"
-msgstr ""
+msgstr "Atingoj"
 
 # support.html
 msgid "Support RealistikOsu!"
 msgstr ""
 
 msgid "You are a donor!"
-msgstr ""
+msgstr "Vi estas donacanto!"
 
 msgid ""
 "Your donor expires <b>%s</b>. No need to feel guilty for not having donated!"
 msgstr ""
 
 msgid "Did you know?"
-msgstr ""
+msgstr "Ĉu vi sciis?"
 
 msgid "(Probably.)"
 msgstr ""
@@ -1043,16 +1043,16 @@ msgid ""
 msgstr ""
 
 msgid "Loading..."
-msgstr ""
+msgstr "Ŝarĝante..."
 
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 msgid "User:"
 msgstr ""
 
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitmono"
 
 msgid "Send %s BTC to this Bitcoin address:"
 msgstr ""
@@ -1082,13 +1082,13 @@ msgstr ""
 
 # Settings
 msgid "Userpage"
-msgstr ""
+msgstr "Uzantopaĝo"
 
 msgid "Avatar"
-msgstr ""
+msgstr "Avataro"
 
 msgid "Discord donor"
-msgstr ""
+msgstr "Discord donacanto!"
 
 msgid "Two factor authentication is enabled on your account."
 msgstr ""
@@ -1127,10 +1127,10 @@ msgid ""
 msgstr ""
 
 msgid "Open File"
-msgstr ""
+msgstr "Malfermanta Dosieron"
 
 msgid "Save"
-msgstr ""
+msgstr "Savu"
 
 msgid ""
 "Your discord account has been linked to this RealistikOsu! account. "
@@ -1191,7 +1191,7 @@ msgid "BBCode syntax reference"
 msgstr ""
 
 msgid "General"
-msgstr ""
+msgstr "Ĝenerala"
 
 msgid "Email address"
 msgstr ""
@@ -1206,7 +1206,7 @@ msgid "Custom badge"
 msgstr ""
 
 msgid "Enable"
-msgstr ""
+msgstr "Enŝalti"
 
 msgid ""
 "<b>Do not use offensive badges and do not pretend to be someone else with "
@@ -1241,16 +1241,16 @@ msgid "Authorization created %s"
 msgstr ""
 
 msgid "Owner"
-msgstr ""
+msgstr "Posedanto"
 
 msgid "Revoke"
-msgstr ""
+msgstr "Revoku"
 
 msgid "Dark site"
-msgstr ""
+msgstr "Malluma retejo"
 
 msgid "Preferences"
-msgstr ""
+msgstr "Agordoj"
 
 # Go source
 msgid "TOTP-based 2FA has been enabled on your account."
@@ -1317,10 +1317,10 @@ msgid "Background type"
 msgstr ""
 
 msgid "None"
-msgstr ""
+msgstr "Neniu"
 
 msgid "Image"
-msgstr ""
+msgstr "Bildo"
 
 msgid "Solid colour"
 msgstr ""
@@ -1504,7 +1504,7 @@ msgid ""
 msgstr ""
 
 msgid "And more..."
-msgstr ""
+msgstr "Kaj pli..."
 
 msgid "Do you want to be in this list?"
 msgstr ""
