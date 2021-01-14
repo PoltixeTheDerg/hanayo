@@ -37,29 +37,28 @@ KyutGrill=homepage2.jpg
 				<div class="status">
 					<span>
 					{{ range $key, $value := (qb "SELECT COUNT(*) FROM users WHERE privileges >= 3") }}			
-						<span style="color: #4287f5;" class="counter-text"> {{ $value }} </span> total users
+						<span style="color: #4287f5;" class="counter-text"> {{ $value }} </span> {{ .T "total users" }}
                     {{ end }}
 					</span>
 					<span style="margin-left: 16px;">
-						<span class="counter-text" style="color: #eb4034;"> {{ .T "%s" (rediget "ripple:online_users")}} </span> online users
+						<span class="counter-text" style="color: #eb4034;"> {{ .T "%s" (rediget "ripple:online_users")}} </span> {{ .T "online users" }}
 					</span>
 				</div>
 				<br>
 				<span class="text-lg">
-					osuHOW
+					{{ .T "osuHOW" }}
 				</span>
 				<span class="text-sm">
-					<b>Welcome to osuHOW!</b>
-	
-	
-					osuHOW is a server with Relax and Autopilot pp, Support for old versions of osu! (Mid 2013 or later), and our own beatmap ranking system. Why hesitate? You won't get your osu! account restricted for playing on osuHOW, you can also switch between osu! and osuHOW at any time!
+					<b>{{ .T "Welcome to osuHOW!" }}</b>
+					
+					{{ .T "osuHOW is a server with Relax and Autopilot pp, Support for old versions of osu! (Mid 2013 or later), and our own beatmap ranking system. Why hesitate? You won't get your osu! account restricted for playing on osuHOW, you can also switch between osu! and osuHOW at any time!" }}
 				</span>
 				<div class="buttons">
 					{{ if not .Context.User.ID }}
-						<a href="/register" class="home-btn btn-key" >Register</a>
+						<a href="/register" class="home-btn btn-key" >{{ .T  "Register" }}</a>
 					{{end}}
-					<a href="https://osuhow.tk/static/switcher.exe" class="home-btn btn-how" style="margin-left: 6px;">Server Switcher</a>
-                    <a href="https://archive.osu.hubza.co.uk/" class="home-btn btn-archive" style="margin-left: 6px;">osu!archive</a>
+					<a href="https://osuhow.tk/static/switcher.exe" class="home-btn btn-how" style="margin-left: 6px;">{{ .T "Server Switcher" }}</a>
+                    <a href="https://archive.osu.hubza.co.uk/" class="home-btn btn-archive" style="margin-left: 6px;">{{ .T "osu!archive" }}</a>
 				</div>
 			</div>
 		</div>
