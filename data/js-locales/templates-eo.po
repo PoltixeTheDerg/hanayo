@@ -82,44 +82,48 @@ msgid "Top Autopilot Score"
 msgstr "Supra Aŭtomatapiloto Poentkvoto"
 
 msgid "Invalid CSRF token"
-msgstr ""
+msgstr "Nevalida CSRF-ĵetono"
 
 msgid ""
 "Your session has expired. Please try redoing what you were trying to do."
 msgstr ""
+"Via kunsido eksvalidiĝis. Bonvolu provi refari tion, kion vi provis fari."
 
 msgid "That user could not be found."
-msgstr ""
+msgstr "Tiu uzanto ne estis Trovita."
 
 msgid "Your settings have been saved."
-msgstr ""
+msgstr "Viaj agordoj estas konservitaj."
 
 # beatmaps/rank_requests.html
 msgid "Request beatmap ranking"
-msgstr ""
+msgstr "Petu mapon por rangi"
 
+#, fuzzy
 msgid ""
 "Want to play an unranked beatmap and get pp? You can submit beatmaps rank "
 "requests here!"
 msgstr ""
+"Ĉu vi volas ludi nerangitan taktmapon kaj akiri pp? Vi povas sendi mapoj "
+"rangopetojn ĉi tie!"
 
 msgid "Queue status"
 msgstr "Atendovico statuso"
 
 msgid "by you"
-msgstr ""
+msgstr "de vi"
 
 msgid "Requests submitted"
-msgstr ""
+msgstr "Petoj senditaj"
 
 msgid "In the past 24 hours"
-msgstr ""
+msgstr "En la pasintaj 24 horoj"
 
 msgid "Request a beatmap"
-msgstr ""
+msgstr "Petu mapon"
 
 msgid "You cannot currently request beatmaps!"
-msgstr ""
+msgstr "Vi ne povas petu mapoj!"
 
 # After this text there is a date. The date is localised separately.
 msgid "Please try again "
@@ -129,21 +133,25 @@ msgstr "Bonvolu reprove "
 msgid "Reset password"
 msgstr "Restarigu pasvorto"
 
+#, fuzzy
 msgid ""
 "Glad to have you back here, %s! To finish the password recovery, type in a "
 "new password:"
 msgstr ""
+"Ĝojas reveni vin ĉi tien, %s! Por fini la pasvortan reakiron, tajpu novan "
+"pasvorton:"
 
 msgid "Nope."
 msgstr "Ne."
 
 msgid "That key could not be found. Perhaps it expired?"
-msgstr ""
+msgstr "Tio ŝlosilo ne povas esti Trovita. Eble ĝi eksvalidiĝis?"
 
 msgid ""
 "All right, we have changed your password and you should now be able to "
 "login! Have fun!"
 msgstr ""
+"Bone, ni ŝanĝis vian pasvorton kaj vi nun devus povi ensaluti! Amuziĝu!"
 
 # register/register.html
 msgid "Register"
@@ -151,18 +159,20 @@ msgstr "Registriĝi"
 
 msgid ""
 "Sorry, it's not possible to register at the moment. Please try again later."
-msgstr ""
+msgstr "Pardonu, ne eblas registri nuntempe. Bonvolu reprovi poste."
 
 msgid ""
 "Remember: this seems like it's your second account! Do not multiaccount, or "
 "you're likely to get restricted!"
 msgstr ""
+"Memoru: ĉi tio ŝajnas esti via dua konto! Ne multkontu, aŭ vi verŝajne "
+"restriktos!"
 
 msgid "Username (2 to 15 characters, alphanumeric, spaces, <code>_[]-</code>)"
-msgstr ""
+msgstr "Uzantnomo (2 ĝis 15 literoj, alfanombra, spacoj,<code>_[]-</code>)"
 
 msgid "Password (at least 8 characters)"
-msgstr ""
+msgstr "Pasvorto (almenaŭ 8 literoj)"
 
 msgid "Email"
 msgstr "Retpoŝto"
@@ -202,7 +212,7 @@ msgid "An user with that email address already exists!"
 msgstr ""
 
 msgid "Captcha is invalid."
-msgstr ""
+msgstr "Captcha estas ne valida."
 
 msgid ""
 "Whoops, an error slipped in. You might have been registered, though. I don't "
@@ -211,7 +221,7 @@ msgstr ""
 
 # register/verify.html
 msgid "Verify account"
-msgstr ""
+msgstr "Konfirmu konto"
 
 msgid ""
 "Your account has been created, however it still <b>needs to be verified!</b> "
@@ -402,7 +412,7 @@ msgstr "Uzantonomo (aŭ retpoŝto)"
 
 # in relationship to a password
 msgid "(forgot?)"
-msgstr ""
+msgstr "(forgesis?)"
 
 msgid "Username or password not set."
 msgstr ""
@@ -1241,7 +1251,7 @@ msgid "New password (leave blank if you don't want to change it)"
 msgstr ""
 
 msgid "Current password"
-msgstr ""
+msgstr "Aktuala pasvorto"
 
 msgid "BBCode syntax reference"
 msgstr ""
