@@ -33,6 +33,9 @@ msgstr ""
 "rangotabelas sistemo. Kial heziti? Vi ne ricevos vian osu! konto limigita "
 "por ludante plu osuHAŬ, vi povas ankaŭ ŝanĝi inter osu! kaj  osuHAŬ kiam ajn!"
 
+msgid "<b>Beyley</b>, for translating the site into Esperanto."
+msgstr "<b>Beyley</b>, por traduki la retejon al Esperanto."
+
 msgid "Submit"
 msgstr "Submetiĝi"
 
@@ -99,7 +102,6 @@ msgstr "Viaj agordoj estas konservitaj."
 msgid "Request beatmap ranking"
 msgstr "Petu mapon por rangi"
 
-#, fuzzy
 msgid ""
 "Want to play an unranked beatmap and get pp? You can submit beatmaps rank "
 "requests here!"
@@ -133,12 +135,11 @@ msgstr "Bonvolu reprove "
 msgid "Reset password"
 msgstr "Restarigu pasvorto"
 
-#, fuzzy
 msgid ""
 "Glad to have you back here, %s! To finish the password recovery, type in a "
 "new password:"
 msgstr ""
-"Ĝojas reveni vin ĉi tien, %s! Por fini la pasvortan reakiron, tajpu novan "
+"Mi ĝojas reveni vin ĉi tien, %s! Por fini la pasvortan reakiron, tajpu novan "
 "pasvorton:"
 
 msgid "Nope."
@@ -1480,48 +1481,59 @@ msgstr ""
 
 # Team page
 msgid ""
-"This is a list of the wonderful people who keep RealistikOsu! up and running "
-"and deal with its community."
+"This is a list of the outstanding individuals who keep RealistikOsu! the "
+"server and its community operating."
 msgstr ""
+"Tio estas listo de la mirinda homoj kiuj konservas osuHAŬ! funkcianta kaj "
+"trakti ĝian komunumon."
 
-msgid "Community Managers"
+msgid "Developer Team"
+msgstr "Programisto-Teamo"
+
+msgid ""
+"Developers are responsible for all the server side magic. They do all the "
+"behind the scene technical things."
 msgstr ""
 
 msgid ""
-"Community Managers deal with bans, silences, name changes and pretty much "
-"everything that has to do with the community."
+"They have full power over the server as they run it. Developers have a blue "
+"name in the in-game chat."
 msgstr ""
+
+msgid "Community Management Team"
+msgstr "Komunuma Administrado-Teamo"
 
 msgid ""
-"They take care of our Discord server and reply to emails sent to the support "
-"services (email and support.ripple.moe). Community Managers have a red name "
-"in the in-game chat."
+"Community Managers (as the name suggests) deal with the community. This can "
+"be anything from organising events to hunting hackers. They are cool people "
+"ready to help you."
 msgstr ""
 
-msgid "Developers"
+msgid "They have power in numerous sectors such as the discord server"
 msgstr ""
 
-msgid ""
-"Developers add new features to the server, squash bugs, keep the server up "
-"and running and take care of its maintenance."
-msgstr ""
-
-msgid ""
-"They don't do anything related to the community. Developers have a blue name "
-"in the in-game chat."
-msgstr ""
-
-msgid "Chat Moderators"
-msgstr ""
+msgid "Chat Moderation Team"
+msgstr "Babila Moderado-Teamo"
 
 msgid ""
 "Chat moderators manage the chat to make sure The Law&trade; (the rules) is "
-"respected."
+"respected.."
 msgstr ""
+
+msgid "Beatmap Appreciation Team"
+msgstr "Mapa Dankemo-Teamo"
 
 msgid ""
 "BATs play beatmaps in the ranking queue and decide whether they are good "
 "enough to be ranked or not."
+msgstr ""
+
+msgid "Support Team"
+msgstr "Subteno-Teamo"
+
+msgid ""
+"The support team is here to help you with any issues you may face. They are "
+"accessable, nice people who enjoy working and helping people."
 msgstr ""
 
 msgid "Special thanks"
